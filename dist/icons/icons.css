@@ -1,21 +1,21 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.eot?a29024546af18b9df125ff94b5b63a54?#iefix") format("embedded-opentype"),
-url("./icons.woff2?a29024546af18b9df125ff94b5b63a54") format("woff2"),
-url("./icons.woff?a29024546af18b9df125ff94b5b63a54") format("woff"),
-url("./icons.ttf?a29024546af18b9df125ff94b5b63a54") format("truetype"),
-url("./icons.svg?a29024546af18b9df125ff94b5b63a54#icons") format("svg");
+    src: url("./icons.eot?a5a8b165a61554c120aebf482d490339?#iefix") format("embedded-opentype"),
+url("./icons.woff2?a5a8b165a61554c120aebf482d490339") format("woff2"),
+url("./icons.woff?a5a8b165a61554c120aebf482d490339") format("woff"),
+url("./icons.ttf?a5a8b165a61554c120aebf482d490339") format("truetype"),
+url("./icons.svg?a5a8b165a61554c120aebf482d490339#icons") format("svg");
 }
 
-i {
-    line-height: 1;
-}
-
-i:before {
+span[class^="oui-icon-"]:before, span[class*=" oui-icon-"]:before {
     font-family: icons !important;
     font-style: normal;
     font-weight: normal !important;
-    vertical-align: top;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .oui-icon-add:before {
